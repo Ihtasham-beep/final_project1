@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Amazon</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+      <header id="nav">
+
+    <div class="nav-bar" style="justify-content: space-between; padding: 0px 35px;">
+            <div class="nav-logo">
+          <img src="https://i.pinimg.com/1200x/0d/46/be/0d46bee0a94cf1519e4d18797905819f.jpg" alt="Not Found" class="logo">
+            </div> <!-- Nav logo ended here! -->
+         
+    
+                 
+       
+    
+        <div style="width: 200px ; height: 100%; align-items: center; gap: 20px; display: flex;" >   <div class="accounts">
+                 <span class="acc">
+                    <i class="fa-solid fa-user" style="font-size: 20px;"></i>
+                
+                    <a href="signIn.html" style="color: white; text-decoration: none;">Sign In</a>
+              
+               </span>
+              </div> 
+                   <div class="accounts two">   
+                 <p>Shopping</p> 
+                 <span class="acc">
+                  <a href="/Finale Of JS/cart.html">
+                <i class="fa-sharp fa-solid fa-cart-shopping"></i>  
+                Cart</a>
+                 </span>
+              </div>  
+            </div>
+                 
+    
+                 
+ 
+    </div>  <!-- Nav Bar ended here! --> 
+    
+     
+  </header> 
+ 
+    <div class="container">
+        <div class="form" style="margin-bottom: 100px;">
+         <h1 class="text">Sign Up</h1>       
+       
+         <form>
+        <section class="input-section">
+             <div class="input-field" id="disable"> 
+                <i class="fa-solid fa-user"></i>
+                <input type="text" placeholder="Name" class="name">
+             </div> 
+             <div class="input-field">
+               <i class="fa-solid fa-envelope"></i>
+                <input type="email" placeholder="Email"    class="name">
+             </div>
+              
+                  <div class="input-field">
+                 <i class="fa-solid fa-key"></i>
+                <input type="Password" placeholder="Password" class="name">
+             </div> 
+             <p class="pa"> <a href="#" class="para" >Password Suggestions Click Here</a></p>
+
+           
+             <button class ="sec"  id="submit">Sign Up</button>
+        </section>
+       </form>
+    </div>
+    </div>  <!-- Container Ended --> 
+  <div class="footer-section">
+  <section class="about">
+     <div class="about-container">
+       <h3>See Personalized recommendations</h3>
+       <button class="sign-in">
+          Sign in
+       </button>  <br>
+       <span class="customer"> New Customer <a href="#">Start Here?</a></span>
+     </div> 
+   </section>  
+
+   <div class="back-to-top">
+  <a href="#nav">   Back To Top </a>
+   </div>
+    <div class="lists">
+    <div class="about-lists">
+       <h3>Get to Know Us</h3>   
+       <ul>   
+      <li>Careers</li>  
+      <li>Blog</li>  
+      <li>About Amazon</li>  
+      <li>Inventor relations</li>  
+      <li>Investor relations</li>  
+      <li>Amazon Devices</li>  
+      <li>Amazon Science</li>  
+   
+    </ul>  
+
+    </div>
+    <div class="about-lists"> 
+ <h3>Make money with us</h3>   
+       <ul>   
+       <li>	Sell products on Amazon</li>  
+       	
+
+ <li> Sell products on Amazon</li>
+  <li>Sell on Amazon Business</li>
+  <li>Sell apps on Amazon</li>
+  <li>Become an Affiliate</li>
+  <li>Advertise Your Products</li>
+  <li>Self-Publish with Us</li>
+  <li>Host an Amazon Hub</li>
+  <li>›See More Make Money with Us</li>
+   
+    </ul>  
+    </div>
+    <div class="about-lists">
+       <h3>Let Us help You</h3>   
+       <ul>   
+      <li>Amazon and COVID- <br> 19</li>  
+      <li>Your Account</li>  
+      <li>Your Orders</li>  
+      <li>Shipping rates & <br> Policies</li>  
+      <li>Returns & <br> Replacenents</li>  
+      <li>Manage Your <br> Content & Devices</li>  
+      <li>Help</li>  
+   
+    </ul>  
+    </div>
+    <div class="about-lists">
+       <h3>Amazon Payment Products</h3>   
+       <ul>   
+      <li>Amazon Business card</li>  
+      <li>Shop with Points</li>  
+      <li>Reload Your Balance</li>  
+      <li>Amazon Currency Converter</li>  
+      
+     
+   
+    </ul>  
+    </div>
+
+  
+   </div> 
+    <div class="langauge-menu">
+      
+   <img src="https://i.pinimg.com/1200x/0d/46/be/0d46bee0a94cf1519e4d18797905819f.jpg" alt="Not Found" class="logo png">
+    <span><i class="fa-solid fa-globe"></i> English</span> 
+    <span><p>PKR </p> Pakistani Rupee</span> 
+    <span><img src="https://sp.yimg.com/ib/th/id/OIP.7Xi1fNU-tlWHb_XdrrsMVgHaHa?pid=Api&w=148&h=148&c=7&rs=1" alt="" class="pnge"> United States</span>
+</div>
+</div>
+
+
+</body>  
+<script>
+let input = document.querySelector('#name');
+let div = document.querySelector('#disable');
+let title = document.querySelector('h1'); 
+let para = document.querySelector('p .para');
+let par = document.querySelector('p .pa'); 
+let all = document.querySelectorAll("input"); 
+let submitBtn = document.querySelector("#submit"); 
+let form = document.querySelector("form");
+
+
+
+
+
+let underLine = document.querySelector(".underline"); 
+
+const NicCondition11 = [ 
+ "45505-3282055", 
+  "45505-3282022",
+  "45505-3282011",
+ "45505-3282088",
+ "45505-3282078",
+"45505-3282031",
+ "45505-3282033",
+ "45505-3282089",
+ "45505-3282067",
+"45505-3282054" ,
+"45505-3282029" ];
+
+form.addEventListener("submit" , (evt) => {
+evt.preventDefault();
+})
+
+
+submitBtn.addEventListener("click" , (i) => {
+    i.preventDefault();
+    let Nic = input.value;
+    let email = all[1].value;
+    let Password = all[2].value; 
+
+    let passLength = 8;
+      
+        
+     // Nic Number Checker 
+     if(Nic == "" || email === "" || Password === ""){
+      alert("All fields are required")
+     }
+     else if(NicCondition11.includes(Nic)) {
+        alert("Nic Number Already Exists"); 
+     } else if(!email.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)){
+        alert("Please Enter a Valid Email");
+     }  else if(Password.length < passLength || Password.length > passLength){
+        alert("Password length should be equal to 8 character")
+     } else if(/[A-Z]/.test(Password)){
+        alert("Atleast One UpperCase is allowed");
+     } else{
+        alert("Your Form Has been Submitted Sucessfully");
+     }
+         
+
+    
+})
+
+</script> 
+</html>
